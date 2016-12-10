@@ -21,6 +21,7 @@
 		24B135351DFC57540097C6AA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B135331DFC57540097C6AA /* back.png */; };
 		24B135361DFC57540097C6AA /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B135341DFC57540097C6AA /* music.png */; };
 		24B1353A1DFC5B550097C6AA /* 110-pokemon-center.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24B135391DFC5B540097C6AA /* 110-pokemon-center.mp3 */; };
+		24B1353D1DFC5EA30097C6AA /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1353C1DFC5EA30097C6AA /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		24B135331DFC57540097C6AA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		24B135341DFC57540097C6AA /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		24B135391DFC5B540097C6AA /* 110-pokemon-center.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "110-pokemon-center.mp3"; sourceTree = "<group>"; };
+		24B1353C1DFC5EA30097C6AA /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				242994F81DFC30C200C115B4 /* ViewController.swift */,
+				24B1353C1DFC5EA30097C6AA /* PokemonDetailVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				242994F91DFC30C200C115B4 /* ViewController.swift in Sources */,
 				2429950D1DFC39F700C115B4 /* Pokemon.swift in Sources */,
 				242994F71DFC30C200C115B4 /* AppDelegate.swift in Sources */,
+				24B1353D1DFC5EA30097C6AA /* PokemonDetailVC.swift in Sources */,
 				242994FF1DFC30C200C115B4 /* pokedex_ios.xcdatamodeld in Sources */,
 				242995101DFC3EA500C115B4 /* PokeCell.swift in Sources */,
 			);
