@@ -31,7 +31,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcA-BN-dmn">
-                                        <rect key="frame" x="120" y="27.5" width="80" height="29.5"/>
+                                        <rect key="frame" x="120" y="27" width="80" height="30"/>
                                         <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="21"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -162,6 +162,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="back"/>
                                         <connections>
+                                            <action selector="backBtnPressed:" destination="K7j-nQ-uHP" eventType="touchUpInside" id="zfg-wI-R27"/>
                                             <action selector="musicBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGY-Bc-75N"/>
                                         </connections>
                                     </button>
@@ -342,7 +343,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8C2-M4-e2T">
-                                <rect key="frame" x="32.5" y="438" width="255" height="120"/>
+                                <rect key="frame" x="33" y="438" width="255" height="120"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="GF0-5F-4yF">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -388,7 +389,18 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="attackLbl" destination="KPj-gW-Oop" id="dgM-8E-bm2"/>
+                        <outlet property="currentEvoImg" destination="GF0-5F-4yF" id="hma-Pq-RcY"/>
+                        <outlet property="defenseLbl" destination="ta8-mY-3Tl" id="vhb-PH-F8f"/>
+                        <outlet property="descriptionLbl" destination="S1h-w3-oAa" id="5rB-Wt-FD7"/>
+                        <outlet property="evoLbl" destination="S1h-w3-oAa" id="0Bh-Xv-Db1"/>
+                        <outlet property="heightLbl" destination="wj6-xR-l7Y" id="HjG-T2-cGO"/>
+                        <outlet property="mainImg" destination="4kT-ex-kmP" id="5RV-8k-wsw"/>
+                        <outlet property="nextEvoImg" destination="6gh-RG-XWp" id="t28-h7-1i6"/>
+                        <outlet property="pokedexLbl" destination="XFy-AD-Cei" id="sdQ-uq-hx7"/>
                         <outlet property="pokemonLbl" destination="FML-C1-sjs" id="8tV-Hs-1Me"/>
+                        <outlet property="typeLbl" destination="fqA-ks-q0B" id="I43-yZ-jxY"/>
+                        <outlet property="weightLbl" destination="tC7-7M-gGA" id="gzp-8Y-7JT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vos-AF-koe" userLabel="First Responder" sceneMemberID="firstResponder"/>
